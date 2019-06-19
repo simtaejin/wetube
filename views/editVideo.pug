@@ -1,0 +1,9 @@
+extends layouts/main
+
+block content
+    .form-container
+        form(action="", method="post")
+            input(type="text", placeholder="Title", name="title", value="")
+            textarea(name="description", placeholder="Description")=""
+            input(type="submit", value="Update Video")
+            button.delete Delete Video

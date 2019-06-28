@@ -1,5 +1,5 @@
 import express from "express";
-import routes from "../routers";
+import routes from "../routes";
 import { editProfile, userDetail, changePassword } from "../controller/userController";
 
 const userRouter = express.Router();

@@ -1,5 +1,5 @@
 import express from "express";
-import routes from "../routers";
+import routes from "../routes";
 import { videoDetail, deleteVideo, getUpload, postUpload, getEditVideo, postEditVideo } from "../controller/videoController";
 import { uploadVideo } from "../middlewares";
 

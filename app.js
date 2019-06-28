@@ -6,7 +6,7 @@ import bodyParser from "body-parser";
 import passport from "passport";
 import session from "express-session";
 import { localsMiddleware } from "./middlewares";
-import routes from "./routers"
+import routes from "./routes"
 import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
